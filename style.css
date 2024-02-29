@@ -73,7 +73,7 @@ a:visited{
     width: 6em;
     border-radius: 50%;
     align-self: center;
-    background-image: url("/assets/images/avatar-jessica.jpeg");
+    background-image: url("assets/images/avatar-jessica.jpeg");
     background-size: contain;
 }
 
