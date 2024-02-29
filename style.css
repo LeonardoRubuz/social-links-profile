@@ -1,0 +1,20 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+main{
+    border: white solid 1px;
+    height: 60%;
+    width: 30%;
+}
+
+ul{
+    color: hsl(0, 0%, 100%);
+}
