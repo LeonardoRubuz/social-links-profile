@@ -20,10 +20,11 @@ main{
     border-radius: 10px;
     background-color: hsl(0, 0%, 12%);
     height: 60%;
-    width: 24%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     padding: 2rem;
+    justify-content: space-between;
 }
 
 .links{
@@ -35,12 +36,25 @@ main{
     list-style-type: none;
 }
 
-.links div{
-    list-style-type: none;
+a{
     font-weight: 600;
     background-color: hsl(0, 0%, 20%);
     height: 2rem;
     width: 100%;
-    align-self: center;
-    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+
+
+a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+a:visited{
+    color: white;
 }
