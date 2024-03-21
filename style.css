@@ -95,7 +95,7 @@ h2{
 
 
 /* Media query */
-@media screen and (max-width : 390px ){
+@media screen and (max-width : 393px ){
     main {
         margin: 2rem;
         padding: 1rem;
